@@ -24,10 +24,10 @@ export async function POST(request: NextRequest) {
 
     // Define the LangChain chain
     const model = new OpenAI({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4o-mini",
       temperature: 0,
     });
-
+    
     // Generate the response stream
     const stream = await model.stream(prompt);
 
