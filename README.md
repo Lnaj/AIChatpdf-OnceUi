@@ -1,62 +1,61 @@
-# Once UI for Next.js
+# **AI Chat PDF - Once UI**  
 
-A thoughtfully crafted design system that eliminates complexity while maximizing flexibility.
+A simple AI-powered application using **LangChain** for AI processing, **Next.js** for the backend, and **Once UI** for the frontend. This app allows users to interact with AI and analyze PDF documents efficiently.  
 
+---
 
-![Once UI](public/images/cover.jpg)
+## **🚀 Features**  
+- **AI-Powered Chat** using LangChain  
+- **PDF Analysis** with AI  
+- **Next.js Backend** for API processing  
+- **Once UI Frontend** for an intuitive user experience  
 
-# Features
+---
 
-Start building your Next.js app in minutes with: 
-* **A robust token and style system** that simplifies customization and ensures consistency. 
-* **A copy-and-paste component library** that integrates seamlessly into your project.
-* **Interactive documentation** to apply your branding and set component properties.
+## **🛠️ Technologies Used**  
+- **LangChain** – AI framework for LLM interactions  
+- **Next.js** – Backend API handling  
+- **Once UI** – Frontend framework  
 
-# Demo
-[demo.once-ui.com](https://demo.once-ui.com)
+---
 
-![Once UI](public/images/demo.png)
+## **📦 Installation**  
 
-# Getting started
-Clone the starter template from GitHub.
-```bash
-git clone https://github.com/once-ui-system/nextjs-starter.git
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/Lnaj/AIChatpdf-OnceUi.git
+cd AIChatpdf-OnceUi
 ```
 
-You can also deploy it directly to Vercel.
+### **2️⃣ Install Dependencies**  
+```sh
+npm install  # For Next.js backend & Once UI frontend
+pip install -r requirements.txt  # For LangChain AI
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&redirect-url=https%3A%2F%2Fonce-ui.com%2Fdocs%2F)
+### **3️⃣ Set Up API Key**  
+Create a `.env` file:  
+```sh
+OPENAI_API_KEY=your_api_key_here
+```
 
+---
 
-View the step-by-step guide at [once-ui.com/docs](https://once-ui.com/docs).
+## **🖥️ Running the App**  
+```sh
+npm run dev  # Start Next.js backend & Once UI frontend
+```
 
-# Documentation
-[once-ui.com/docs](https://once-ui.com/docs)
+---
 
-# Authors
-Connect with us!
+## **📜 License**  
+MIT License.  
 
-Lorant One: [Site](https://lorant.one), [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/lorant-one/)  
-Zsofia Komaromi: [Site](https://zsofia.pro), [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
+## **🤝 Contributing**  
+Fork, create a branch, commit, and open a PR.  
 
-# Get involved
-- Join the [Design Engineers Club](https://discord.com/invite/5EyAQ4eNdS) on Discord to connect with designers, developers and share your projects.
-- Report a [bug](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=bug&template=bug_report.md).
-- Submit a [feature request](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
+## **📧 Contact**  
+🔗 **GitHub Repo**: [AI Chat PDF - Once UI](https://github.com/Lnaj/AIChatpdf-OnceUi)  
+👤 **GitHub Profile**: [Lnaj](https://github.com/Lnaj)  
 
-# License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-# Sponsors
-
-[github.com/sponsors/once-ui-system](https://github.com/sponsors/once-ui-system)
-
-Become a sponsor and help us continue to develop and maintain this project.
-
-# Once UI for Figma
-
-Once UI is also available for Figma.  
-Design and prototype entire products from scratch in hours. Use the same tokens and components as the Next.js design system.
-
-Start designing: [Once UI for Figma](https://once-ui.com/figma).
+Let me know if you need modifications! 🚀
